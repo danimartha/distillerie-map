@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f865133505aa4f3370f3a1cf183e728e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f865133505aa4f3370f3a1cf183e728e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f865133505aa4f3370f3a1cf183e728e = L.map(
+                "map_f865133505aa4f3370f3a1cf183e728e",
+                {
+                    center: [38.627, -90.1994],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ff81b61c65f3a139ff0ef818e3ed6545 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var marker_33b1ad6463b3a35d54224de74b54eca6 = L.marker(
+                [38.6321, -90.1949],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_bbb6ddb04cf2f8ed2fb41a76c4ae4714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33b1ad6463b3a35d54224de74b54eca6.setIcon(icon_bbb6ddb04cf2f8ed2fb41a76c4ae4714);
+        
+    
+        var popup_f7faa52ecb7027d609d4ca1ccf9b06de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4ac6f1d3e32a02c5c4587ed55671ceb = $(`<div id="html_c4ac6f1d3e32a02c5c4587ed55671ceb" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/StilL+630+Distillery%2C+St.+Louis%2C+MO" target="_blank">StilL 630 Distillery</a><br>Distilleria artigianale pluripremiata nel centro di St. Louis, conosciuta per la sua varietà di spiriti innovativi.</div>`)[0];
+            popup_f7faa52ecb7027d609d4ca1ccf9b06de.setContent(html_c4ac6f1d3e32a02c5c4587ed55671ceb);
+        
+
+        marker_33b1ad6463b3a35d54224de74b54eca6.bindPopup(popup_f7faa52ecb7027d609d4ca1ccf9b06de)
+        ;
+
+        
+    
+    
+            var marker_e18cadcff747b38ba7b0b8e7031810b1 = L.marker(
+                [38.7812, -90.5305],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_23cc8a2501d50aa2e55d112393101361 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e18cadcff747b38ba7b0b8e7031810b1.setIcon(icon_23cc8a2501d50aa2e55d112393101361);
+        
+    
+        var popup_72dbb3042e190a89efbdeb3d91f45958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aea58cd0119b491d6fd7a18807a01a19 = $(`<div id="html_aea58cd0119b491d6fd7a18807a01a19" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/Cardinal+Sin+Distillery%2C+St.+Charles%2C+MO" target="_blank">Cardinal Sin Distillery</a><br>Produce vodka e whisky artigianali, tra cui il Cardinal Sin Vodka e il Cardinal Sin ENVY Rye Whiskey.</div>`)[0];
+            popup_72dbb3042e190a89efbdeb3d91f45958.setContent(html_aea58cd0119b491d6fd7a18807a01a19);
+        
+
+        marker_e18cadcff747b38ba7b0b8e7031810b1.bindPopup(popup_72dbb3042e190a89efbdeb3d91f45958)
+        ;
+
+        
+    
+    
+            var marker_909836203062c8a31f15254c001a8a0c = L.marker(
+                [38.62, -90.1875],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_02cbbd61676358f016421cea1149a011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_909836203062c8a31f15254c001a8a0c.setIcon(icon_02cbbd61676358f016421cea1149a011);
+        
+    
+        var popup_eaa79ccfccc3f141e18b128d2299240b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bd2361648e354e28afb8282e290c7ea = $(`<div id="html_4bd2361648e354e28afb8282e290c7ea" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/Square+One+Brewery+%26+Distillery%2C+St.+Louis%2C+MO" target="_blank">Square One Brewery & Distillery</a><br>Fondata nel 2006, è la prima micro-distilleria del Missouri dopo il proibizionismo, combinando birra e distillati.</div>`)[0];
+            popup_eaa79ccfccc3f141e18b128d2299240b.setContent(html_4bd2361648e354e28afb8282e290c7ea);
+        
+
+        marker_909836203062c8a31f15254c001a8a0c.bindPopup(popup_eaa79ccfccc3f141e18b128d2299240b)
+        ;
+
+        
+    
+    
+            var marker_dbbfa83d97da3dd3d82b9b6263ab8299 = L.marker(
+                [38.7746, -90.7594],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_30e2dbc45656b26e9c646bb42a7b6d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbbfa83d97da3dd3d82b9b6263ab8299.setIcon(icon_30e2dbc45656b26e9c646bb42a7b6d70);
+        
+    
+        var popup_bfe35fdda828156658418d9ba15c3bc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec6a5afc3ccfcfcbd512a14f94eb14db = $(`<div id="html_ec6a5afc3ccfcfcbd512a14f94eb14db" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/Burnt+Barrel+Meadery+%26+Distillery%2C+Lake+St.+Louis%2C+MO" target="_blank">Burnt Barrel Meadery & Distillery</a><br>Specializzata nella produzione di idromele e distillati come vodka, bourbon e whisky, con degustazioni e tour.</div>`)[0];
+            popup_bfe35fdda828156658418d9ba15c3bc9.setContent(html_ec6a5afc3ccfcfcbd512a14f94eb14db);
+        
+
+        marker_dbbfa83d97da3dd3d82b9b6263ab8299.bindPopup(popup_bfe35fdda828156658418d9ba15c3bc9)
+        ;
+
+        
+    
+    
+            var marker_213916bd96a36dbf7c0e6ee702b569ed = L.marker(
+                [38.646, -90.258],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_f5c5215990f3f07e0127f0f41ae0068a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_213916bd96a36dbf7c0e6ee702b569ed.setIcon(icon_f5c5215990f3f07e0127f0f41ae0068a);
+        
+    
+        var popup_5f09cf4475c4823d63cb8d0d387abd7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc68b1b90147d48e1a117af0b491c284 = $(`<div id="html_dc68b1b90147d48e1a117af0b491c284" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/Switchgrass+Spirits+Distillery%2C+St.+Louis%2C+MO" target="_blank">Switchgrass Spirits Distillery</a><br>Produce una varietà di spiriti artigianali, tra cui whisky e gin, utilizzando ingredienti locali e metodi tradizionali.</div>`)[0];
+            popup_5f09cf4475c4823d63cb8d0d387abd7c.setContent(html_dc68b1b90147d48e1a117af0b491c284);
+        
+
+        marker_213916bd96a36dbf7c0e6ee702b569ed.bindPopup(popup_5f09cf4475c4823d63cb8d0d387abd7c)
+        ;
+
+        
+    
+    
+            var marker_e8aaf37c9c5d1aab59eb5381b12b5278 = L.marker(
+                [38.6358, -90.2397],
+                {}
+            ).addTo(map_f865133505aa4f3370f3a1cf183e728e);
+        
+    
+            var icon_d4ae66fa9bcff4be21e29cddbad27f7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8aaf37c9c5d1aab59eb5381b12b5278.setIcon(icon_d4ae66fa9bcff4be21e29cddbad27f7c);
+        
+    
+        var popup_1b3ab1ff8a3d702693cb6e51c6da9798 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0ebfa81f9c295f5b6904c7411d2c92 = $(`<div id="html_ae0ebfa81f9c295f5b6904c7411d2c92" style="width: 100.0%; height: 100.0%;"><a href="https://www.google.com/maps/search/The+Gin+Room%2C+St.+Louis%2C+MO" target="_blank">The Gin Room</a><br>Specializzata nella produzione di gin artigianali, offre una selezione di gin unici e cocktail creativi.</div>`)[0];
+            popup_1b3ab1ff8a3d702693cb6e51c6da9798.setContent(html_ae0ebfa81f9c295f5b6904c7411d2c92);
+        
+
+        marker_e8aaf37c9c5d1aab59eb5381b12b5278.bindPopup(popup_1b3ab1ff8a3d702693cb6e51c6da9798)
+        ;
+
+        
+    
+</script>
+</html>
